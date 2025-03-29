@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Optional: Add smooth transitions for background and text color */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* You can add more custom styles here if needed */
+/* App.css */
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

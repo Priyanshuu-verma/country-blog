@@ -40,7 +40,7 @@ A web application that provides detailed information about countries using the [
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/country-blog.git
+   git clone https://github.com/Rishabh0426/Country-blog-web/
    cd country-blog
    
 
@@ -56,7 +56,7 @@ A web application that provides detailed information about countries using the [
 
 4. Open your browser and visit:
    
-   http://localhost:3000
+   http://localhost:5173
    
 
 ## API Usage

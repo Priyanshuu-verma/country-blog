@@ -35,7 +35,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Countries isDarkMode={isDarkMode} />} />
         <Route path="/countries/:name" element={<Country isDarkMode={isDarkMode} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About isDarkMode={isDarkMode}/>} />
       </Routes>
     </div>
   );

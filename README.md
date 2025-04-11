@@ -10,7 +10,7 @@ A web application that provides detailed information about countries using the [
 - Dark mode support
 - Responsive design
  ## Live Preview
-[Web Link](https://country-blog-web.onrender.com).
+[Web Link](https://celadon-mousse-d56d4f.netlify.app/).
 
 ## Tech Stack
 
@@ -40,7 +40,7 @@ A web application that provides detailed information about countries using the [
 
 1. Clone the repository:
    bash
-   git clone https://github.com/Rishabh0426/Country-blog-web/
+   git clone https://github.com/Priyanshuu-verma/country-blog
    cd country-blog
    
 

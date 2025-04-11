@@ -23,7 +23,7 @@ const Countries = ({isDarkMode}) => {
   }, []);
 
   return (
-    <div className={`p-4 dark:bg-gray-900 min-h-screen ${isDarkMode?"text-white": "text-gray-900" }`}>
+    <div className={`p-4  min-h-screen  ${isDarkMode?"text-white": "text-gray-900" }`}>
       <Filter
         searchInput={searchInput}
         setSearchInput={setSearchInput}

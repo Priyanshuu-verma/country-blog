@@ -62,7 +62,7 @@ const Filter = ({ searchInput, setSearchInput, setFiltered, countries,isDarkMode
         <select
           value={searchCategory}
           onChange={(e) =>  setSearchCategory(e.target.value)}
-          className={`p-2 w-36 border border-gray-300 dark:border-gray-600 rounded-md  ${isDarkMode? "text-white" :"text-gray-900"} dark:text-white ${isDarkMode ?"bg-gray-600": "bg-red-400 "} `}
+          className={`p-2 w-36 border border-gray-300 dark:border-gray-600 rounded-md  ${isDarkMode? "text-white" :"text-gray-900"}  ${isDarkMode ?"bg-gray-600": "bg-red-400 "} `}
         >
           {Object.entries(categories).map(([key, label]) => (
             <option key={key} value={key}>
